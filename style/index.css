@@ -40,6 +40,8 @@
     justify-content: space-around;
     align-items: center;
     background-image: url("../images/background.png"),linear-gradient(45deg,#0000,#000);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner-title{
     font-size: 55px;
@@ -59,4 +61,23 @@
 }
 .banner-info .banner-button:hover{
     color: blue
+}
+
+/* body section style */
+.main-section{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 60px;
+}
+.main-body-img{
+    width: 300px;
+}
+.main-body-container{
+    display: flex;
+    justify-content: space-around;
+    /* height: 100vh; */
+    align-items: center;
+}
+.main-body-description{
+    padding: 20px 0px;
 }
