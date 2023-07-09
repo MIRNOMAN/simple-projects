@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-container{
+    background-color:rgb(69, 67, 67);
+    color: white;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.image-logo{
+    width: 200px;
+}
+.menu-bar{
+    display: flex;
+   
+}
+.menu-bar-item{
+  margin-right: 15px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.menu-bar-item:hover{
+    color: blue;
+}
+
+/* banner section style */
+.banner-photo{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/background.png"),linear-gradient(45deg,#0000,#000);
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner-button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 3px;
+    border: none
+}
+.banner-info .banner-button:hover{
+    color: blue
+}
